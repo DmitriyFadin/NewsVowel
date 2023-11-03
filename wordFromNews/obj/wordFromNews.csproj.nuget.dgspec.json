@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/j.a.r.v.i.s/Projects/wordFromNews/wordFromNews/wordFromNews.csproj": {}
+  },
+  "projects": {
+    "/Users/j.a.r.v.i.s/Projects/wordFromNews/wordFromNews/wordFromNews.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/j.a.r.v.i.s/Projects/wordFromNews/wordFromNews/wordFromNews.csproj",
+        "projectName": "wordFromNews",
+        "projectPath": "/Users/j.a.r.v.i.s/Projects/wordFromNews/wordFromNews/wordFromNews.csproj",
+        "packagesPath": "/Users/j.a.r.v.i.s/.nuget/packages/",
+        "outputPath": "/Users/j.a.r.v.i.s/Projects/wordFromNews/wordFromNews/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/j.a.r.v.i.s/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "NewsAPI": {
+              "target": "Package",
+              "version": "[0.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
