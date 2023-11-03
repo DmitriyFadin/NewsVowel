@@ -6,7 +6,7 @@ namespace wordFromNews;
 
 class Program
 {
-    private static string apiKey = "6ceb011f5ad441909f6e7ab1a20fcee4";
+    private static string apiKey = "";
     private static string topic = "космос";
     private static string section = "all";
     
